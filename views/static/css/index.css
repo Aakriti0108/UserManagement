@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+
+* {
+    margin: auto;
+    padding: auto;
+  }
+  
+  body {
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.wallpapersafari.com/50/47/av7PrR.jpg);
+    background-color: rgb(251, 255, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
+
+.nav-div{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.658);
+    width: auto;
+    height: 80px;
+  }
+  
+  .leaderboard {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-color:rgb(0, 252, 21);
+    transition: width 1s, height 1s, background-color 1s;
+  }
+  
+  .leaderboard:hover {
+    background-color: rgb(220, 255, 139);
+    color: black;
+    width: 230px;
+    height: 50px;
+  }
+
+  .index{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-color:rgb(37, 5, 97);
+    transition: width 1s, height 1s, background-color 1s;
+  }
+  
+  .index:hover {
+    background-color: rgb(139, 212, 255);
+    color: black;
+    width: 200px;
+    height: 50px;
+  }
+  
+  header h1{
+    display: block;
+    color:bisque;
+    font-family: 'Bungee', cursive;
+    width: 800px;
+    padding-left: 50px;
+  }
+  
+  .logout-div{
+    display: flex;
+    float: right;
+    width: 380px;
+    height: 60px;
+  }
+  
+  #logout {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-color:rgb(0, 81, 202);
+    transition: width 1s, height 1s, background-color 1s;
+  }
+  
+  #logout:hover {
+    background-color: rgb(0, 162, 255);
+    width: 150px;
+    height: 50px;
+  }
+
+  #list-div {
+    display: block;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    color:rgb(255, 255, 255);
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.747);
+  }
+  
+  #list-div h1 {
+    display: block;
+    color:bisque;
+    margin: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .list-item {
+    display: block;
+    background-color:rgb(170, 92, 2);
+    color: aliceblue;
+    margin: 70px;
+    padding: 10px;
+    width: 750px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 800;
+    transition: width 1s, height 1s, background-color 1s, color 1s;
+  }
+
+  .list-item:hover{
+    cursor: pointer;
+    width: 780px;
+    height: 420px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .list-span{
+    display: flex;
+    height: 30px;
+    margin: 5px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .list-name{
+    background-color: #00000067;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+  .list-email{
+    background-color: #00000067;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+  .list-profession{
+    background-color: #00000067;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+  .list-phone{
+    background-color: #00000067;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+
+  .list-edit {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-color:rgb(9, 66, 17);
+    transition: width 1s, height 1s, background-color 1s;
+  }
+  
+  .list-edit:hover {
+    background-color: rgb(6, 129, 12);
+    width: 150px;
+    height: 50px;
+  }
+
+  .list-delete {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-color:rgb(133, 14, 6);
+    transition: width 1s, height 1s, background-color 1s;
+  }
+  
+  .list-delete:hover {
+    background-color: rgb(255, 60, 0);
+    width: 150px;
+    height: 50px;
+  }
+
+  .swal-overlay {
+    background-color: rgba(255, 255, 255, 0.493);
+  }
+
+  .swal-modal {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+  }
+
+  .swal-title {
+    margin: 0px;
+    font-size: 25px;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.21);
+    color: white;
+    margin-bottom: 28px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .swal-text {
+    padding: 17px;
+    border: 2px solid #5eff00;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 7px
+  }
+
+  .swal-button {
+    padding: 7px 19px;
+    border-radius: 4px;
+    background-color: #0943ff;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
